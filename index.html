@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>William Watson - Portfolio.</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="William Watson's Portfolio">
+    <meta name="author" content="William Watson">
+</head>
+
+<body>
+
+    <a href="mailto:williamwatson099@gmail.com" id = "contact">Contact Me</a>
+
+    <section id = "header">
+        <div class = "header">
+            <h1>William Watson</h1>
+            <h2 id = "subtitle">I am an IT student at the University of Queensland.  My focus is on software design and I have been working mostly in Java, HTML, CSS, and JavaScript since I began studying.</h2>  
+        </div>
+    </section>
+
+    <main>
+        <section>
+
+            <h2>DECO1800 Major Project</h2>
+            <div class = "project">
+
+                <button onclick = "projectSelect('partA')" id = "btnA"><h2>Part A</h2></button>
+                <button onclick = "projectSelect('partB')" id = "btnB"><h2>Part B</h2></button>
+                <button onclick = "projectSelect('partC')" id = "btnC"><h2>Part C</h2></button>
+
+                <div id = "partA">
+                    <p>For the first milestone of the project, I helped to create two deliverables. One was a concept document and the other was a pitch.  The concept document was designed to help outsiders better understand my teams design decisions for the concept.  It also granted my team an opportunity to better flesh out our idea before moving into the development stage.  This document was also used when writing the pitch and designing the poster, the other major components of Part A.  The pitch was used to convey the concepts unique selling points and was supplemented by the poster, which illustrated the concepts major design areas.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer">
+                            <img src = "pic/partA/PartAInitial.jpg">
+                            <p class = "subtitle">The initial idea was quite different from the final product.</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partA/PartAPosters.PNG">
+                            <p class = "subtitle">The poster created for Part A.</p>
+                        </div>
+                    </div>
+                    <p>The initial concept for ‘Mole on a Mission’ was to have the user play as a miner exploring a maze-like mine. They were required to rescue individuals who were harmed in mining accidents as described in the State Library of Queensland (SLQ) mining injury database.  Although the team worked on this idea, I was the main contributor as I have a lot of experience around video games and was allocated the role of team leader.  I based the idea off top-down games such as Hotline Miami.  This idea was changed as it was deemed too difficult to implement due to time constraints and lack of technical skill.  So, to compensate, the game was changed to a side-scroller style, more akin to Super Mario Bros.  This was chosen as my Tutors suggested the use of Phasor, a game engine which would support this style of game over the top down style.  Eventually this idea evolved into the concept as is shown in the final product.</p>
+                    <div class = "imgSection">
+                            <div class = "imgContainer">
+                                <img src = "pic/partA/Prac102.jpg">
+                                <p class = "subtitle">Another set of ideas that were considered for the project.</p>
+                            </div>
+                            <div class = "imgContainer">
+                                <img src = "pic/partA/Prac203.jpg">
+                                <p class = "subtitle">Sorting possible ideas into categories to further analyse them.</p>
+                            </div>
+                        </div>
+                    <p>I believe this project was a success. By the end of the development phase, my team had a concept that we were excited about and that fit the brief well.  I worked hard on the concept, developing it to a stage where my team were happy with it. Once we achieved this, we had a strong belief that we would be able to implement it appropriately.  In retrospect, the idea itself needed to be developed further to assure all the specifics were thought of.  This lack of attention to detail really hurt us in Part B and C.  We had to spend much of the development time in these parts discussing as a group how we wanted to handle these details. Instead, we should have used this time to develop the minimal viable product (MVP).</p>
+                    <div class = "imgSection">
+                            <div class = "imgContainer">
+                                <img src = "pic/partA/Prac204.jpg">
+                                <p class = "subtitle">More ideas sorted on different categories.</p>
+                            </div>
+                            <div class = "imgContainer">
+                                <img src = "pic/partA/Prac205.jpg">
+                                <p class = "subtitle">Establishing target audiences for each idea.</p>
+                            </div>
+                        </div>
+                    <p>One main area of Part A that I would have changed involved the teams scope.  When the idea was first imagined, the team was quick to throw idea after idea on top of it.  This led to a lot of the team meetings being focused on developing ideas which were altered by Part C, making these discussions obsolete.  I would have liked to define the scope very early and try to perfect that idea.  If I had of brought the teams scope to a more reasonable level, I believe we would have had a much more competent site before the delivery.</p>
+                </div>
+
+            
+                <div id = "partB">
+                    <p>Part B of the project was focused around transforming the concepts described in Part A into a useable minimal viable product (MVP).  This MVP would be the baseline for the project moving forward and needed to include all essential functionality.  An MVP is important as often the development of larger projects fall victim to gigantic scopes.  Designers and developers typically feel that their project needs to result in the best product possible and will often underestimate the time it will take to complete it.  Although this is done with the best intentions, it can result in sites missing core functionality due to time restraints or with the functionality present, but it is untested or broken.  The solution is to refine the larger scope into one that is smaller, and more achievable, but lacking in the extra features.  We call this smaller product the MVP.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer" id = "bigimg">
+                            <img src = "pic/partB/MVP.jpg">
+                            <p class = "subtitle">A list of features/jobs that needed attention before the MVP was to be presented.</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partB/mvp.PNG">
+                            <p class = "subtitle">The game screen as of the completion of the MVP.</p>
+                        </div>
+                    </div>
+                    <p>In preparation for developing the MVP, my team and I ran a paper prototyping session with members of the course.  I used a variety of different methods to try and get feedback from our participants.  This included asking open ended questions, focusing on areas that the tester seemed interested in and constantly asking for their thoughts on theoretical features not implemented to prompt collaborative idea generation.  These methods proved beneficial as we received a wide range of feedback which contributed to the concept and in turn the MVP.  An example of the feedback received was that the game itself was difficult to understand.  For example, the testers felt that a lack of tutorial or explanation of the game’s mechanics would be difficult to understand how to complete the game.  To negate this, I assisted one of my team members in writing a tutorial which was included in the final product.  As I was the main developer for the site, I was tasked with writing all the pages outside of the game itself.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer">
+                            <img src = "pic/partB/20180904_100249.jpg">
+                            <p class = "subtitle">A plan was created in preparation for the Paper Prototyping.  It detailed all questions to ask and how to run the testing.</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partB/20180904_100240.jpg">
+                            <p class = "subtitle">Here is the set up of the prototype before testing began.</p>
+                        </div>
+                    </div>
+                    <p>I believe that this part of the project was a success in all facets except the MVP, which was objectively inadequate.  We worked cohesively as a team, developing the concepts of the site to great success.  All the testing conducted was beneficial and run efficiently.  The end report was well written, yet the MVP was not a viable product as the pages were not cohesive.  The pages were not polished as they often appeared unresponsive, disrupting user experience.  In short, the MVP could not be released and was thus not an MVP at all.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer">
+                            <img src = "pic/partB/20180904_114434.jpg">
+                            <p class = "subtitle">Testing in progress.</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partB/123.jpg">
+                            <p class = "subtitle">A sample of notes taken during the testing.</p>
+                        </div>
+                    </div>
+                    <p>To improve this section of the project, we would simply need to focus on the MVP.  If the MVP was completed, this part of the project would have been a homerun. Instead, it was tarnished by a lack of understanding of what was expected of the team, resulting in an underdeveloped product.  If more time had been put into the MVP, I believe that the development team would have had more time in Part C to develop the features not included due to time constraints.  Overall the team needed to have a better grasp on what was expected of them.</p>
+                </div>
+            
+                <div id = "partC">
+                    <p>The focus of Part C was bringing the MVP from a baseline to a complete and fully functional website.  As my teams MVP was lacklustre, we worked extra hard on this part of the project to present something we were happy with.  After the site was finished my team participated in a Trade Show which involved decorating a stall and pitching our website.  My team decided to decorate the stall with caution tape and other mining related items, as we felt that this would fit the theme of our site, as well as represent our concept.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer">
+                            <img src = "pic/partC/45108097_726500621017856_7193878373200822272_n.jpg">
+                            <p class = "subtitle">My group in front of our display (Roger not pictured).</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partC/frontpage.PNG">
+                            <p class = "subtitle">The title page of the finished site.</p>
+                        </div>
+                    </div>
+                    <p>After receiving the feedback from the MVP’s presentation, my team made some major changes to our concept.  At this point in development, we planned on having all collected newspapers displayed after they were picked up.  This feature received a lot of criticism from testers, so we decided to only show the newspapers at the end of each level to maintain the flow of the game. During the Trade Show we received some negative feedback about this, as the newspapers only made up a small part of the site.  This is one of the issues that should have been fixed in Part A, long before it became costly for developers to fix.  At this point in the development, I finalised all pages except the game, as this was the responsibility of another team member.  I was also responsible for the online upload and testing of the site.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer">
+                            <img src = "pic/partC/granny.PNG">
+                            <p class = "subtitle">The librarian companion for the player.</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partC/world.PNG">
+                            <p class = "subtitle">Select the stage you want to play.</p>
+                        </div>
+                    </div>
+                    <p>This project was a success as during the sites presentation, my team received lots of positive feedback.  I believe that the main objective of our site was to be enjoyable as well as educational. Both objectives were met through the design and execution of the site.  My team worked very hard to create this last iteration, resulting in a well-executed final product.</p>
+                    <div class = "imgSection">
+                        <div class = "imgContainer">
+                            <img src = "pic/partC/game.PNG">
+                            <p class = "subtitle">Avoid the obstacles and collect the newspaper to complete the level.</p>
+                        </div>
+                        <div class = "imgContainer">
+                            <img src = "pic/partC/paper.PNG">
+                            <p class = "subtitle">One of the nine newspapers the user needs to collect.  Each newspaper is randomly created each time the user loads the page.</p>
+                        </div>
+                    </div>
+                    <p>I believe that the only way to improve this part of the project needed to occur back in Part A.  If the concept was refined and in turn the MVP was more focused, Part C would have benefited greatly from it.  I don’t believe that the team made any major mistakes or missed any opportunities, the project simply lacked the depth that it needed to propel it into something truly amazing.</p>
+                    <p>The complete design document for this project can be found <a href="https://drive.google.com/file/d/1TM5oL3hoy1W3XuUOg-fo2g-405oWaJb1/view">here</a>.</p>
+		</div>
+            </div>    
+        </section>
+            
+        <section class = "portfolio">
+
+            <h2>Portfolio</h2>
+            <p>This portfolio was completed as part of DECO1800 but will be used by me to store all future work I complete as well.  This portfolio is designed for me to highlight and reflect upon my own work over the duration of my time at university and after.  This site also highlights my own skills as a designer and should illustrate my ability over multiple fields. </p>
+            <p>The first thing I did before beginning development on this portfolio was find example of others online.  After sifting through many sites, I found a small handful that I personally liked, and thought were well designed.  I then looked at how these sites were laid out, how their elements worked together.  I decided to stick to a simple theme, use lots of white and contrast it with black, as this look fits with current trends and my own taste.  I was also interested in what sort of features these other sites used.  This is where I discovered the 'contact me' button located in the top right of one of these example portfolios.  I really liked the look of the button, so I decided to implement it into the site myself. I then began writing the content for each section, paying close attention to the brief given to me.  Once this was complete, I used the information gathered during the research phase to begin designing the site in Visual Studio Code by writing the HTML section of the site.  I then went through and added the CSS and JavaScript to complete the site. </p>
+            <p>I believe this project was a success as its design and content represent my skill and taste.  It shows my contribution to major team projects while also showing my ability to work on individual tasks.  I also reflect critically on both types of project.  These reflections are thorough while not being overkill.  They also give suggestions for possible improvements that could be made, and this should allow for improvements to be made on my work in the future.  An area that the portfolio does struggle in is its simplicity.  Although this style fits with my taste very well it may seem dull to outsiders.  A possible improvement would be to add some colour.  A splash of colour would add some 'pop' to the page which it currently lacks. </p>
+        
+        </section>
+
+        <section class = "course">
+
+            <h2>Course Reflection</h2>
+            <p>In my first journal entries for this course I expected to be working heavily in groups around a project based on the public SLQ databases.  I also expected to do PHP, but this was not the case.  I am not sure why I expected to learn PHP as I don’t believe it was ever stated to me that we would learn it.  However, other than that slight misunderstanding, my expectations of the course were met.  I also mentioned wanting to improve my work ethic and did so by creating a weekly schedule.  The course helped me tremendously with this as the weekly contact sessions gave me time sensitive goals that I had to constantly work towards.  The online journal also forced me to maintain this weekly routine.  My appreciation for the course grew progressively and as a result, I enjoyed the course work a lot more than I had anticipated.</p>
+            <p>Throughout the course I participated in a variety of different design orientated activities.  This required my group and I to create small artifacts to assist our teams understanding of the main project.  Examples of the created artifacts included Mind Maps, Sketches, a Paper Prototype, an MVP and a Venn Diagram.  Most of these were based on instructions by staff but the prototypes and MVP were run by my team.</p>
+            <p>I believe that my assessment turned out very well, though there were areas that could have been improved.  One such area was the concepts creation.  When my team and I thought of the idea, we were very quick to attach to it.  I believe if more activities like the ‘Bolstering the Visual Concept’ exercise had been done earlier in the course (i.e. around Part A), that this issue could have been avoided.  Another area my team could have improved on was our Part B MVP.  It was our understanding that this would be a prototype, not a fully releasable product, so we did not complete it to the standard that was expected.  This was not the fault of the course but simply a misunderstanding by my team.</p>
+            <p>I think that this course is run very well.  It has a considerable amount of content to increase student ability and allows them to learn through practice. There are no formal examinations thanks to the assessment style characterised by its focus on project and team work. This style of learning is quite engaging and allows for the development of fundamental skills.</p>
+        
+        </section>
+        
+        <section class = "rainbow">
+
+            <h2>The Rainbow Fish</h2>
+            <p>As part of my assessment in the DECO1400 course I produced a well-designed and interactive story website for children aged 13 years and under.  Its purpose was to transform a typically static form of media, books, into one that is dynamic using an interactive website.  I chose the book <i>The Rainbow Fish</i> as I enjoyed it while I was young, and I believed it would translate well into a digital form. </p>
+            <p>The process involved in taking the sites concept to a finished product was documented in a design report which can be found <a href="https://drive.google.com/file/d/1pjV-ScAdelSmPfTrm_EIVmwWHdVfov4P/view?usp=sharing">here</a>.  This report details the process taken in creating the final site.  </p>
+            <p>This project was my first real venture into web development and it showed.  The site is lack lustre in looks and functionality, but it was a decent first attempt.  One of the major obstacles I faced was that I did not have the official artwork available for use, which forced me to find art online.  This art was not nearly as provocative and visually pleasing as the original art, but it was the best possible.  Another obstacle in the development process was my lack of time.  I had planned to include two methods of use for my site, one for single users and one for multiple users.  This functionality was limited to only changing minor text as I did not have enough time to fully implement the other features.  I believe if I had of managed my time more efficiently then this feature would have been much better.  One area that I completed well was the interactivity.  The site has many different types of interactive game and features which add to the overall experience. </p>
+        
+        </section>
+
+        <section class = "footer">
+            <p>Developed and Designed by William Watson</p>
+        </section>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
